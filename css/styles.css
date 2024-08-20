@@ -83,6 +83,7 @@ input{
     margin: 10px;
     border: none;
     font-size: 18px;
+    box-shadow: 1px 1px 5px #5f5f5f;
 }
 input:active{
     font-weight: 700;
@@ -107,6 +108,7 @@ input:active{
     background-color: #EFF1FA;
     align-items: center;
     gap: 10px;
+    box-shadow: 0px 12px 30px #5f5f5f;
 }
 .section__secondary textarea{
     display: none;
@@ -137,8 +139,14 @@ input:active{
         "primary"
         "secondary";
     }
+    .section__secondary{
+        margin-bottom: 20px;
+    }
     .section__secondary img{
         display: none;
+    }
+    .section__secondary h3{
+        font-size: 20px;
     }
     textarea{
         margin-bottom: 200px;
@@ -149,8 +157,5 @@ input:active{
     h2{
         font-size: 25px;
         margin-top: 200px;
-    }
-    .section__secondary h3{
-        font-size: 20px;
     }
 }
