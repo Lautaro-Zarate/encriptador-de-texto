@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <section class="grid">
+            <img class="logo" src="./assets/images/logo.jpg" alt="Logo Alura-Latam">
+                <section class="section__primary">
+                    <h1 class="animate__animated animate__jackInTheBox">Encriptador de texto</h1>
+                    <div>
+                        <h2>Ingrese el texto aquí</h2>
+                        <textarea name="texto" id="texto"></textarea>
+                    </div>
+                    <div class="advertencia"> 
+                        <p><img src="./assets/images/icono-precaucion.ico"><b>Solo letras minúsculas y sin acentos </b></p>
+                    <div class="botones">
+                        <input class="encriptar" type="button" value="Encriptar">
+                        <input class="desencriptar" type="button" value="Desencriptar">
+                    </div>
+                    </div>
+                </section>
+                <section class="section__secondary">
+                    <textarea></textarea>
+                    <img src="./assets/images/persona-buscando.webp" alt="Persona buscando con una lupa">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desea encriptar o desencriptar.</p>
+                    <input type="button" value="Copiar">
+                </section>
+        </section>
+    </header>
+    <script src="./js/app.js"></script>
+</body>
+</html>
