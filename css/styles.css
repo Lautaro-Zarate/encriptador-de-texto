@@ -15,7 +15,7 @@ h1{
     font-size: 60px;
     font-weight: 500;
     color: #002865;
-    margin-top: 20px;
+    margin: 20px;
 }
 h2{
     font-size: 40px;
@@ -31,24 +31,6 @@ grid-template-areas:
 "primary primary secondary"
 "primary primary secondary";
 justify-content: space-around;
-}
-@media (max-width:768px) and (min-width: 368px) {
-    .grid{
-        grid-template-areas:
-        "logo"
-        "primary"
-        "primary"
-        "secondary";
-    }
-    .section__secondary img{
-        display: none;
-    }
-    textarea{
-        margin-bottom: 200px;
-    }
-    h2{
-        margin-top: 200px;
-    }
 }
 .logo{
     grid-area: logo;
@@ -146,4 +128,22 @@ input:active{
     color: #EFF1FA;
     font-family: "heebo",'Times New Roman', Times, serif;
     padding: 10px ;
+}
+@media (max-width:768px) and (min-width: 368px) {
+    .grid{
+        grid-template-areas:
+        "logo"
+        "primary"
+        "primary"
+        "secondary";
+    }
+    .section__secondary img{
+        display: none;
+    }
+    textarea{
+        margin-bottom: 200px;
+    }
+    h2{
+        margin-top: 200px;
+    }
 }
