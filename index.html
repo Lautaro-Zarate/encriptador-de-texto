@@ -13,33 +13,36 @@
     <title>Encriptador de texto</title>
 </head>
 <body>
-    <nav><img class="logo" src="./assets/images/logo.jpg"></nav>
     <header>
+        <nav><img class="logo" src="./assets/images/logo.jpg"></nav>
+    </header>
+    <main>
         <section class="grid">
             <!-- <img class="logo" src="./assets/images/logo.jpg" alt="Logo Alura-Latam"> -->
                 <section class="section__primary">
                     <h1 class="animate__animated animate__jackInTheBox">Encriptador de texto</h1>
                     <div>
                         <h2>Ingrese el texto aquí</h2>
-                        <textarea name="texto" id="texto"></textarea>
+                        <textarea id="texto"></textarea>
                     </div>
                     <div class="advertencia"> 
                         <p><img src="./assets/images/icono-precaucion.ico"><b>Solo letras minúsculas y sin acentos </b></p>
                     <div class="botones">
-                        <input class="encriptar" type="button" value="Encriptar">
-                        <input class="desencriptar" type="button" value="Desencriptar">
+                        <input class="encriptar" type="button" value="Encriptar" onclick="botonEncriptar()">
+                        <input class="desencriptar" type="button" value="Desencriptar"
+                        onclick="botonDesencriptar()">
                     </div>
                     </div>
                 </section>
                 <section class="section__secondary">
-                    <textarea></textarea>
-                    <img src="./assets/images/persona-buscando.webp" alt="Persona buscando con una lupa">
+                    <textarea id="mensaje"></textarea>
+                    <img id="miImagen" src="./assets/images/persona-buscando.webp" alt="Persona buscando con una lupa">
                     <h3>Ningún mensaje fue encontrado</h3>
-                    <p>Ingresa el texto que desea encriptar o desencriptar.</p>
-                    <input type="button" value="Copiar">
+                    <p class="texto-sugerencia">Ingresa el texto que desea encriptar o desencriptar.</p>
+                    <input type="button" value="Copiar" onclick="copiarTexto()">
                 </section>
         </section>
-    </header>
-    <script src="./js/app.js"></script>
+    </main>
+    <script src="./js/script.js"></script>
 </body>
 </html>

@@ -111,7 +111,9 @@ input:active{
     box-shadow: 0px 12px 30px #5f5f5f;
 }
 .section__secondary textarea{
-    display: none;
+    background-color: #EFF1FA;
+    border: none;
+    color: #002865;
 }
 .section__secondary img{
     width: 400px;
