@@ -55,10 +55,3 @@ function desencriptar(stringDesencriptado){
     }
     return stringDesencriptado;
 }
-
-function copiarTexto(){
-    const textArea = document.getElementById('texto');
-    
-    const textoCopiado = textarea.value;
-    navigator.clipboard.writeText(textoCopiado)
-}
