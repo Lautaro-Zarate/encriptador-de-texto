@@ -129,7 +129,7 @@ input:active{
     font-family: "heebo",'Times New Roman', Times, serif;
     padding: 10px ;
 }
-@media (max-width:768px) and (min-width: 368px) {
+@media (min-width: 368px) and (max-width: 768px){
     .grid{
         grid-template-areas:
         "logo"
