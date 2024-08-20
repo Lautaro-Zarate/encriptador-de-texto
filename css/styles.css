@@ -144,9 +144,13 @@ input:active{
         margin-bottom: 200px;
     }
     h1{
-        text-align: justify;
+        font-size: 40px;
     }
     h2{
+        font-size: 25px;
         margin-top: 200px;
+    }
+    .section__secondary h3{
+        font-size: 20px;
     }
 }
