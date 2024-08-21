@@ -12,13 +12,13 @@ body{
     height: 75px;
 }
 h1{
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 500;
     color: #002865;
     margin: 20px;
 }
 h2{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 400;
     color: #002865;
 }
@@ -79,7 +79,7 @@ textarea:focus{
 input{
     padding: 20px;
     border-radius: 20px;
-    width: 200px;
+    width: 12.5rem;
     margin: 10px;
     border: none;
     font-size: 18px;
@@ -135,7 +135,7 @@ input:active{
     font-family: "heebo",'Times New Roman', Times, serif;
     padding: 10px ;
 }
-@media (min-width: 350px) and (max-width: 768px){
+@media (min-width: 340px) and (max-width: 768px){
     .grid{
         grid-template-areas:
         "logo"
@@ -143,8 +143,8 @@ input:active{
         "primary"
         "secondary";
     }
-    .botones{
-        margin: 0 8px;
+    input{
+        width: 11rem;
     }
     .section__secondary{
         margin-bottom: 20px;
