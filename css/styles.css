@@ -114,8 +114,10 @@ input:active{
     background-color: #EFF1FA;
     border: none;
     color: #002865;
+    height: 150px;
 }
 .section__secondary img{
+    margin-top: 5px;
     width: 400px;
     height: 400px;
 }
@@ -140,6 +142,9 @@ input:active{
         "primary"
         "primary"
         "secondary";
+    }
+    .botones{
+        margin: 0 8px;
     }
     .section__secondary{
         margin-bottom: 20px;
